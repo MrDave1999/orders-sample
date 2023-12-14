@@ -33,9 +33,11 @@ A sample order system that uses ASP.NET Core.
 ## Installation
 
 - Web API
-  - Install [.NET SDK 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0). 
+  - Install [.NET SDK 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0).
+    - This is because **Pomelo.EntityFrameworkCore** is not yet support with EF Core 8. 
+  - Install [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) to be able to use [C# 12](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12).
   - Install [MariaDb Server](https://mariadb.com/downloads) and set the user as root.
-  - Create a file called `.env`. Example:
+  - Create a file called `.env` with the command:
   ```.env
   copy src/WebApi/.env.example src/WebApi/.env
   ```
@@ -47,7 +49,7 @@ A sample order system that uses ASP.NET Core.
   - Run `dotnet run` for a dev server. Navigate to `https://localhost:7120/swagger/`.
 
 - Testing
-  - Create a file called `test.env`. Example:
+  - Create a file called `test.env` with the command:
   ```.env
   copy tests/IntegrationTests/sample.env tests/IntegrationTests/test.env
   ```
