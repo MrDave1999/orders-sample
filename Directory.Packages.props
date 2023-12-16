@@ -8,7 +8,7 @@
     <PackageVersion Include="Scrutor" Version="4.2.2" />
     <PackageVersion Include="DotEnv.Core" Version="3.0.0" />
     <PackageVersion Include="SimpleResults.AspNetCore" Version="2.3.0" />
-    <PackageVersion Include="SimpleResults.FluentValidation" Version="2.3.0" />
+    <PackageVersion Include="SimpleResults.FluentValidation" Version="2.3.1" />
     <PackageVersion Include="FluentValidation" Version="11.8.0" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0" />
     <PackageVersion Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
